@@ -1,0 +1,31 @@
+.title-todo {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.todo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(214, 214, 214, 1) 100%
+  );
+  color: #010114;
+  margin: 0 2rem 2rem 0;
+  padding: 10px 30px;
+  border-radius: 1rem;
+  width: 10rem;
+  border: 1px solid #010114;
+}
+
+.todo hr {
+  border: 0.1rem solid #010114;
+  margin: -5px -30px;
+}
